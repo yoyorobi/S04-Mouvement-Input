@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "S04-Input-Mouv.sln"
+    "dotnet.defaultSolution": "S04-Mouvement-Input.sln"
 }

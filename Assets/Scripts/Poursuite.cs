@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Numerics;
 using UnityEngine;
 
 public class Poursuite : MonoBehaviour
@@ -10,6 +11,7 @@ public class Poursuite : MonoBehaviour
     void Update()
     {
         transform.LookAt(poissonCible.transform);
+       
         transform.Translate(0, 0, vitesse * Time.deltaTime, Space.Self);
     }
 }

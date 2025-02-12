@@ -9,9 +9,9 @@ public class MouvementRigidbodyForces : MonoBehaviour
 
     void Start()
     {
-        // Prends une réference au Rigidbody attaché a cet objet.
+        // Prends une rï¿½ference au Rigidbody attachï¿½ a cet objet.
         _rb = GetComponent<Rigidbody>();
 
-        _rb.AddForce(forceInitiale);
+        _rb.AddForce(forceInitiale, ForceMode.VelocityChange);
     }
 }
